@@ -1,10 +1,11 @@
-#Audio Waves
+# Audio Waves
 
 Shows a graphic representation of the sounds captured by the microphone on Android
 
 ![android_audio_waves](https://cloud.githubusercontent.com/assets/1595403/11171019/e7f21ebe-8be4-11e5-80ed-5d485dc46719.png)
 
-###GRADLE:
+### GRADLE:
+Add this to your `app/build.gradle`
 
 	repositories {
 	    	...
@@ -15,7 +16,7 @@ Shows a graphic representation of the sounds captured by the microphone on Andro
 	        compile 'org.firezenk:audiowaves:1.1@aar'
 	}
 
-###USAGE:
+### USAGE:
 
 1. Add permission to record audio (into your Manifest)
 	
@@ -100,11 +101,11 @@ Shows a graphic representation of the sounds captured by the microphone on Andro
     void setGradientColorEnd(int color);
 	````
 
-###MORE INFO:
+### MORE INFO:
 
 	Go to sample module
 
-###LICENSE
+### LICENSE
 
 ````
 The MIT License (MIT)
